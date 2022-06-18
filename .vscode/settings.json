@@ -5,7 +5,24 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        ".packages": true,
+        "ios": true,
+        "build": true,
+        ".vscode": true,
+        "android": true,
+        ".dart_tool": true,
+        ".metadata": true,
+        "pubspec.lock": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        ".packages",
+        "ios",
+        "build",
+        ".vscode",
+        "android",
+        ".dart_tool",
+        ".metadata",
+        "pubspec.lock"
+    ]
 }
