@@ -13,8 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      routes: routes,
-      initialRoute: '/home',
+      routes: PageName.routes,
+      initialRoute: PageName.home,
     );
   }
 }
