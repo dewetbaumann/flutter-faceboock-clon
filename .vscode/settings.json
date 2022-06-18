@@ -5,7 +5,32 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        ".dart_tool": true,
+        "facebook_clon.iml": true,
+        ".idea": true,
+        ".vscode": true,
+        "android": true,
+        "build": true,
+        "ios": true,
+        ".gitignore": true,
+        ".metadata": true,
+        ".packages": true,
+        "pubspec.lock": true,
+        "README.md": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        ".dart_tool",
+        "facebook_clon.iml",
+        ".idea",
+        ".vscode",
+        "android",
+        "build",
+        "ios",
+        ".gitignore",
+        ".metadata",
+        ".packages",
+        "pubspec.lock",
+        "README.md"
+    ]
 }
