@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 abstract class AppColor {
   static const Color greyColor500 = Color(0xFFBCBCBC);
+  static const Color greyColor400 = Color(0xFFC7C7C7);
   static const Color greyColor300 = Color(0xFFEBEBEB);
   static const Color greyColor200 = Color(0xFFEEEEEE);
 
@@ -10,7 +11,8 @@ abstract class AppColor {
   static const Color lightBlueColor500 = Color(0xFF80b6f5);
 
   static const Color blueColor500 = Color(0xFF2286DF);
-  static const Color blueColor400 = Color(0xFFE7F0FF);
+  static const Color blueColor400 = Color(0xFF84B6FB);
+  static const Color blueColor300 = Color(0xFFE7F0FF);
 
   static const Color greenColor500 = Color(0xFFA9E0A1);
   static const Color greenColor400 = Color(0xFFEBF7E9);
