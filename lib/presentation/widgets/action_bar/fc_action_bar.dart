@@ -1,4 +1,5 @@
 import 'package:facebook_clon/core/app_color.dart';
+import 'package:facebook_clon/core/app_images.dart';
 import 'package:facebook_clon/presentation/widgets/action_bar/fc_action_bar_button.dart';
 import 'package:flutter/material.dart';
 
@@ -7,35 +8,48 @@ class FcActionBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final double _screenWidth = MediaQuery.of(context).size.width;
+    final double screenWidth = MediaQuery.of(context).size.width;
 
     return Container(
-      width: _screenWidth,
+      width: screenWidth,
       decoration: const BoxDecoration(
         color: Colors.white,
       ),
       child: Row(
-        children: const <Widget>[
-          Text(
+        children: <Widget>[
+          const Text(
             'facebook',
             style: TextStyle(),
           ),
-          Expanded(child: SizedBox()),
-          FcActionBarButton(
-            color: AppColor.greyColor500,
-            icon: Icons.search,
+          const Expanded(child: SizedBox()),
+          const FcActionBarButton(
+            backgroundColor: AppColor.grey500,
+            icon: Icon(
+              Icons.search,
+              color: AppColor.white,
+            ),
+          ),
+          const FcActionBarButton(
+            backgroundColor: AppColor.salmon,
+            icon: Icon(
+              Icons.notifications,
+              color: AppColor.white,
+            ),
+          ),
+          const FcActionBarButton(
+            backgroundColor: AppColor.lightBlue500,
+            icon: Icon(
+              Icons.people,
+              color: AppColor.white,
+            ),
           ),
           FcActionBarButton(
-            color: AppColor.salmonColor,
-            icon: Icons.notifications,
-          ),
-          FcActionBarButton(
-            color: AppColor.lightBlueColor500,
-            icon: Icons.people,
-          ),
-          FcActionBarButton(
-            color: AppColor.blueColor500,
-            icon: Icons.message,
+            backgroundColor: AppColor.blue500,
+            icon: SizedBox(
+              width: 20,
+              height: 20,
+              child: Image.asset(AppImage.messenger),
+            ),
           ),
         ],
       ),

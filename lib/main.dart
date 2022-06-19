@@ -2,11 +2,11 @@ import 'package:facebook_clon/presentation/utils/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const FaceboockClon());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class FaceboockClon extends StatelessWidget {
+  const FaceboockClon();
 
   @override
   Widget build(BuildContext context) {

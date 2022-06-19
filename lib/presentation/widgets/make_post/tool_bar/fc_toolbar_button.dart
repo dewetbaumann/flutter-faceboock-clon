@@ -1,8 +1,8 @@
 import 'package:facebook_clon/presentation/widgets/fc_button_rounded.dart';
 import 'package:flutter/material.dart';
 
-class FcButtonPost extends StatelessWidget {
-  const FcButtonPost({
+class FcMakePostButton extends StatelessWidget {
+  const FcMakePostButton({
     required this.text,
     required this.icon,
     required this.backgroundColor,

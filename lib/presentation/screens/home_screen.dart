@@ -9,14 +9,34 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final Size screen = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: AppColor.greyColor200,
+      backgroundColor: AppColor.grey200,
       body: SafeArea(
         child: Column(
-          children: const <Widget>[
-            FcActionBar(),
-            FcMakePost(),
-            FcCardFriends(),
+          children: <Widget>[
+            const FcActionBar(),
+            const FcMakePost(),
+            Container(
+              width: screen.width,
+              height: 130,
+              color: Colors.grey,
+              padding: const EdgeInsets.all(5),
+              child: PageView(
+                children: <Widget>[
+                  Container(
+                    width: 50,
+                    height: 50,
+                    color: Colors.red,
+                  ),
+                  // Container()
+                  // FcCardFriends(),
+                  // FcCardFriends(),
+                  // FcCardFriends(),
+                  // FcCardFriends(),
+                ],
+              ),
+            ),
           ],
         ),
       ),

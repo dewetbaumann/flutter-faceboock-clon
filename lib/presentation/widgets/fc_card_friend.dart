@@ -1,12 +1,13 @@
+import 'package:facebook_clon/core/app_images.dart';
 import 'package:flutter/material.dart';
 
 class FcCardFriends extends StatelessWidget {
-  const FcCardFriends({Key? key}) : super(key: key);
+  const FcCardFriends();
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width,
+      width: 90,
       // height: 100,
       decoration: const BoxDecoration(
         color: Colors.white,
@@ -20,7 +21,7 @@ class FcCardFriends extends StatelessWidget {
             decoration: const BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(20)),
               image: DecorationImage(
-                image: AssetImage('assets/images/background.jpg'),
+                image: AssetImage(AppImage.profile),
                 fit: BoxFit.cover,
               ),
             ),
