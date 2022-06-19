@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
 class FcActionBarButton extends StatelessWidget {
-  const FcActionBarButton({required this.color, required this.icon});
-  final IconData icon;
-  final Color color;
+  const FcActionBarButton({required this.backgroundColor, required this.icon});
+  final Widget icon;
+  final Color backgroundColor;
 
   @override
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () {},
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all<Color>(color),
+        backgroundColor: MaterialStateProperty.all<Color>(backgroundColor),
         shape: MaterialStateProperty.all<OutlinedBorder>(const CircleBorder()),
       ),
-      child: Icon(icon, color: Colors.white),
+      child: icon,
     );
   }
 }
