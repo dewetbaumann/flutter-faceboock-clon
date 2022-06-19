@@ -1,4 +1,4 @@
-import 'package:facebook_clon/core/app_images.dart';
+import 'package:facebook_clon/core/app/app_images.dart';
 import 'package:flutter/material.dart';
 
 class FcCardFriends extends StatelessWidget {

@@ -1,4 +1,4 @@
-import 'package:facebook_clon/core/app_color.dart';
+import 'package:facebook_clon/core/app/app_color.dart';
 import 'package:facebook_clon/presentation/widgets/make_post/tool_bar/fc_toolbar_button.dart';
 import 'package:flutter/material.dart';
 

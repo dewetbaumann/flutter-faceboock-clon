@@ -1,5 +1,5 @@
-import 'package:facebook_clon/core/app_color.dart';
-import 'package:facebook_clon/core/app_images.dart';
+import 'package:facebook_clon/core/app/app_color.dart';
+import 'package:facebook_clon/core/app/app_images.dart';
 import 'package:flutter/material.dart';
 
 class FcMakePostAction extends StatelessWidget {
